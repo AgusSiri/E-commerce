@@ -1,4 +1,6 @@
 import React from 'react'
+import CartWidget from './CartWidget';
+
 
 export default function NavBar(){
     return ( 
@@ -11,6 +13,7 @@ export default function NavBar(){
                     <li><a style={{ textDecoration:'none', color:'red', padding:'10px'}} href="#">Help</a></li>
                 </ul>
             </div>
-        </div>
+            <CartWidget/>
+        </div>  
     )
 }
