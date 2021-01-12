@@ -7,9 +7,9 @@ const ItemList = () => {
   new Promise(resolve => {
     setTimeout(() => {
       resolve([
-        { id: "1", name: "Campera de Jean", price: 4000, location: "Buenos Aires" },
-        { id: "2", name: "Remera Blanca", price: 1200, location: "Buenos Aires" },
-        { id: "3", name: "Calzas negras", price: 900, location: "Buenos Aires" },
+        { id: "1", name: "Cuadro 1", price: 4000, location: "Buenos Aires" },
+        { id: "2", name: "Cuadro 2", price: 1200, location: "Buenos Aires" },
+        { id: "3", name: "Cuadro 3", price: 900, location: "Buenos Aires" },
       ]);
     }, 2000);
   }).then(response => {

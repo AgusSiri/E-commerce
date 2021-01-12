@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+
 .tittle {
-    color: blueviolet;
-    font-size: 30px;
+    color: #FF914D;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.subheading {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Tenor Sans', sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.linea {
+    width: 20%;
 }

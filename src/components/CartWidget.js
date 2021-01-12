@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import marcoBallesi from './images/marcoBallesi.png';
+import './styleComponents.css';
 
 const CartWidget = () => {
     return (
-        <div className="logo">
-            <img src="https://www.flaticon.es/icono-gratis/facebook_145802">
+        <div className="logoNav">
+            <img src={marcoBallesi}>
             </img>
         </div>
 

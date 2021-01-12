@@ -1,19 +1,21 @@
 import React from 'react'
 import CartWidget from './CartWidget';
+import './styleComponents.css';
+
 
 
 export default function NavBar(){
     return ( 
         <div>
             <div>
-                <ul style={{display:'flex', alignContent:'center', alignItems:'stretch', listStyle:'none'}}>
-                    <li><a style={{ textDecoration:'none', color:'black', padding:'10px'}} href="#">Home</a></li>
-                    <li><a style={{ textDecoration:'none', color:'black', padding:'10px'}} href="#">About</a></li>      
-                    <li><a style={{ textDecoration:'none', color:'black', padding:'10px'}} href="#">Products</a></li>      
-                    <li><a style={{ textDecoration:'none', color:'red', padding:'10px'}} href="#">Help</a></li>
+                <ul className="navBar">
+                    <li><a  href="#">Home .</a></li>
+                    <li><a  href="#">About .</a></li>      
+                    <li><a  href="#">Products .</a></li>      
+                    <li><a style={{color:'red'}} href="#">Help</a></li>
+                    <li><CartWidget/></li>
                 </ul>
             </div>
-            <CartWidget/>
         </div>  
     )
 }

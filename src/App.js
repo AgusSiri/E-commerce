@@ -2,18 +2,22 @@ import NavBar from './components/navbar';
 import ItemListContainer from './components/ItemListContainer';
 import './App.css';
 import './style.css';
-import ItemCount from './components/ItemCount';
-
+import marcoBallesi from './logos/marcoBallesi.png';
+import ItemDetailContainer from './components/ItemDetailContainer'
 
 function App() {
   return (
     <>
-      <h2 className="tittle"> Bienvenidxs </h2>
+      <img className="logo" src={marcoBallesi}></img>
+      <h2 className="tittle"> Marco Ballesi </h2>
+      <p className="subheading"> Tienda de arte </p>
+      <hr className="linea"/>
+
       <NavBar/>
       <ItemListContainer
         greeting="Bienvenidx"
       />
-      <ItemCount init="0" min="0" max="20" onAdd={() => console.log("onAdd")} />
+      <ItemDetailContainer />
     </>
   );
 }
