@@ -8,25 +8,25 @@
 }
 
 .navBar {
- display: flex;
- align-content: flex-start;
-list-style: none;
+    display: flex;
+    align-content: flex-start;
+    list-style: none;
 }
 
 .navBar li a {
 
-align-items: stretch;
-text-decoration: none;
-padding: 10px;
-color: black;
-text-transform: uppercase;
-font-family: 'Montserrat', sans-serif;
+    align-items: stretch;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .itemlist {
-color: cornflowerblue;
-font-size: 20px;
+    color: cornflowerblue;
+    font-size: 20px;
 }
 
 .contador {

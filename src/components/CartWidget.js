@@ -1,12 +1,10 @@
 import React from 'react';
-import marcoBallesi from './images/marcoBallesi.png';
 import './styleComponents.css';
 
 const CartWidget = () => {
     return (
         <div className="logoNav">
-            <img src={marcoBallesi}>
-            </img>
+            <img src="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect" />
         </div>
 
     )
